@@ -1,0 +1,16 @@
+cat > .gitignore << 'EOF'
+# macOS system files
+.DS_Store
+**/.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Model weights
+*.pth
+*.pt
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+EOF
